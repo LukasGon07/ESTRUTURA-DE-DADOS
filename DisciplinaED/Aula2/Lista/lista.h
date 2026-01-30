@@ -9,6 +9,10 @@ typedef struct No {
     struct No *proximo;
 } No;
 
+typedef struct No {
+    No inicio;
+} Lista;
+
 No* criarNo(int valor); 
 
 void inserirInicio(No **lista, int valor);
